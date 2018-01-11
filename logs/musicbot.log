@@ -1,0 +1,97 @@
+[23.001194000] 2018-01-12 03:02:12,310 - INFO - launcher: Starting sanity checks
+[23.001194000] 2018-01-12 03:02:12,310 - INFO - launcher: Checking for Python 3.5+
+[23.001194000] 2018-01-12 03:02:12,310 - INFO - launcher: Checking console encoding
+[24.001121521] 2018-01-12 03:02:12,311 - INFO - launcher: Setting console encoding to UTF-8
+[24.001121521] 2018-01-12 03:02:12,311 - INFO - launcher: Ensuring we're in the right environment
+[25.001287460] 2018-01-12 03:02:12,312 - INFO - launcher: Adding local bins/ folder to path
+[25.001287460] 2018-01-12 03:02:12,312 - INFO - launcher: Required checks passed.
+[26.001214981] 2018-01-12 03:02:12,313 - INFO - launcher: Optional checks passed.
+[43.002367020] 2018-01-12 03:02:12,330 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[0.8250470161437988] 2018-01-12 03:02:13,112 - DEBUG - musicbot.bot | In bot.py::MainThread(4700), line 213 in _setup_logging: Set logging level to INFO
+[0.8260471820831299] 2018-01-12 03:02:13,113 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 80 in __init__: =========== MusicBot (version 1.9.6_1) ===========
+[0.8260471820831299] 2018-01-12 03:02:13,113 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 86 in __init__: Loaded autoplaylist with 2531 entries
+[0.827047110] launcher-INFO: Connecting
+[3.9102234840393066] 2018-01-12 03:02:16,197 - DEBUG - musicbot.bot | In bot.py::MainThread(4700), line 1011 in on_ready: Connection established, ready to go.
+[3.9102234840393066] 2018-01-12 03:02:16,197 - DEBUG - musicbot.bot | In bot.py::MainThread(4700), line 324 in _cache_app_info: Caching app info
+[4.1632380485534668] 2018-01-12 03:02:16,450 - DEBUG - musicbot.bot | In bot.py::MainThread(4700), line 828 in _scheck_ensure_env: Ensuring data folders exist
+[4.1632380485534668] 2018-01-12 03:02:16,450 - DEBUG - musicbot.bot | In bot.py::MainThread(4700), line 844 in _scheck_server_permissions: Checking server permissions
+[4.1642379760742188] 2018-01-12 03:02:16,451 - DEBUG - musicbot.bot | In bot.py::MainThread(4700), line 848 in _scheck_autoplaylist: Auditing autoplaylist
+[4.1642379760742188] 2018-01-12 03:02:16,451 - DEBUG - musicbot.bot | In bot.py::MainThread(4700), line 852 in _scheck_configs: Validating config
+[4.1642379760742188] 2018-01-12 03:02:16,451 - DEBUG - musicbot.config | In config.py::MainThread(4700), line 155 in async_validate: Validating options...
+[4.1642379760742188] 2018-01-12 03:02:16,451 - DEBUG - musicbot.bot | In bot.py::MainThread(4700), line 855 in _scheck_configs: Validating permissions config
+[4.1642379760742188] 2018-01-12 03:02:16,451 - DEBUG - musicbot.permissions | In permissions.py::MainThread(4700), line 59 in async_validate: Validating permissions...
+[4.1642379760742188] 2018-01-12 03:02:16,451 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 1022 in on_ready: Connected to Discord!
+[4.1642379760742188] 2018-01-12 03:02:16,451 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 1032 in on_ready: Bot:   401065505219411969/Anonymous#3229 [BOT]
+[4.1652381420135498] 2018-01-12 03:02:16,452 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 1040 in on_ready: Owner: 338566914819227660/세준#2204
+
+[4.1652381420135498] 2018-01-12 03:02:16,452 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 1043 in on_ready: Server List:
+[4.1652381420135498] 2018-01-12 03:02:16,452 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 1044 in <listcomp>:  - PUBG
+[4.1662380695343018] 2018-01-12 03:02:16,453 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 1088 in on_ready: Not bound to any text channels
+[4.1662380695343018] 2018-01-12 03:02:16,453 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 1114 in on_ready: Not autojoining any voice channels
+[4.1662380695343018] 2018-01-12 03:02:16,453 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 1118 in on_ready: Options:
+[4.1662380695343018] 2018-01-12 03:02:16,453 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 1120 in on_ready:   Command prefix: !
+[4.1672382354736328] 2018-01-12 03:02:16,454 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 1121 in on_ready:   Default volume: 50%
+[4.1672382354736328] 2018-01-12 03:02:16,454 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 1123 in on_ready:   Skip threshold: 4 votes or 50%
+[4.1682381629943848] 2018-01-12 03:02:16,455 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 1124 in on_ready:   Now Playing @mentions: Disabled
+[4.1682381629943848] 2018-01-12 03:02:16,455 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 1125 in on_ready:   Auto-Summon: Disabled
+[4.1682381629943848] 2018-01-12 03:02:16,455 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 1126 in on_ready:   Auto-Playlist: Enabled
+[4.1682381629943848] 2018-01-12 03:02:16,455 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 1127 in on_ready:   Auto-Pause: Enabled
+[4.1692383289337158] 2018-01-12 03:02:16,456 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 1128 in on_ready:   Delete Messages: Enabled
+[4.1702382564544678] 2018-01-12 03:02:16,457 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 1130 in on_ready:     Delete Invoking: Disabled
+[4.1702382564544678] 2018-01-12 03:02:16,457 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 1131 in on_ready:   Debug Mode: Disabled
+[4.1702382564544678] 2018-01-12 03:02:16,457 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 1132 in on_ready:   Downloaded songs will be saved
+[4.1712384223937988] 2018-01-12 03:02:16,458 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 252 in _join_startup_channels: Found resumable voice channel PUBG/보이스톡
+[4.1712384223937988] 2018-01-12 03:02:16,458 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 267 in _join_startup_channels: Attempting to join PUBG/보이스톡
+[4.1722385883331299] 2018-01-12 03:02:16,459 - DEBUG - musicbot.bot | In bot.py::MainThread(4700), line 437 in get_voice_client: Connection attempt 1 to 보이스톡
+[4.1722385883331299] 2018-01-12 03:02:16,459 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4700), line 376 in join_voice_channel: (join_voice_channel) creating futures
+[4.1732385158538818] 2018-01-12 03:02:16,460 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4700), line 382 in join_voice_channel: (join_voice_channel) setting voice state
+[4.1742386817932129] 2018-01-12 03:02:16,461 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4700), line 385 in join_voice_channel: (join_voice_channel) waiting for session id
+[4.4152524471282959] 2018-01-12 03:02:16,702 - DEBUG - musicbot.bot | In bot.py::MainThread(4700), line 2552 in on_voice_state_update: Resumed voice connection to PUBG/보이스톡
+[4.4162523746490479] 2018-01-12 03:02:16,703 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4700), line 2564 in on_voice_state_update: Voice state update for 401065505219411969/Anonymous#3229 on PUBG/보이스톡 -> [RESUME, CONNECT]
+[4.4162523746490479] 2018-01-12 03:02:16,703 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4700), line 389 in join_voice_channel: (join_voice_channel) waiting for voice data
+[4.5772616863250732] 2018-01-12 03:02:16,864 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4700), line 403 in join_voice_channel: (join_voice_channel) connecting...
+[4.8222756385803223] 2018-01-12 03:02:17,109 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4700), line 415 in join_voice_channel: (join_voice_channel) connection successful
+[4.8222756385803223] 2018-01-12 03:02:17,109 - DEBUG - musicbot.bot | In bot.py::MainThread(4700), line 463 in get_voice_client: Connected in 0.7s
+[4.8222756385803223] 2018-01-12 03:02:17,109 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 464 in get_voice_client: Connected to PUBG/보이스톡
+[4.8232755661010742] 2018-01-12 03:02:17,110 - DEBUG - musicbot.bot | In bot.py::MainThread(4700), line 805 in deserialize_queue: Deserializing queue for 395855713685209099
+[4.9152810573577881] 2018-01-12 03:02:17,203 - DEBUG - musicbot.bot | In bot.py::MainThread(4700), line 555 in get_player: Created player via deserialization for server 395855713685209099 with 1 entries
+[4.9152810573577881] 2018-01-12 03:02:17,203 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 283 in _join_startup_channels: Joined PUBG/보이스톡
+[4.9162809848785400] 2018-01-12 03:02:17,204 - VOICEDEBUG - musicbot.player | In player.py::MainThread(4700), line 311 in websocket_check: Starting websocket check loop for PUBG
+[4.9162809848785400] 2018-01-12 03:02:17,204 - FFMPEG - musicbot.player | In player.py::MainThread(4700), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-wqVkpVgQKdw-melomance_-_Yellow_OST_part_2.webm
+[4.9272818565368652] 2018-01-12 03:02:17,215 - DEBUG - musicbot.bot | In bot.py::MainThread(4700), line 781 in serialize_queue: Serializing queue for 395855713685209099
+[10.3635926246643066] 2018-01-12 03:02:22,651 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 2395 in on_message: 338566914819227660/세준#2204: !skip
+[14.0328025817871094] 2018-01-12 03:02:26,320 - INFO - musicbot.entry | In entry.py::MainThread(4700), line 219 in _really_download: Download started: https://youtube.com/watch?v=AL4Tc7jLuK4
+[15.4638841152191162] 2018-01-12 03:02:27,751 - INFO - musicbot.entry | In entry.py::MainThread(4700), line 226 in _really_download: Download complete: https://youtube.com/watch?v=AL4Tc7jLuK4
+[16.0219163894653320] 2018-01-12 03:02:28,309 - FFMPEG - musicbot.player | In player.py::MainThread(4700), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-AL4Tc7jLuK4-TRAILS_-_Crying_In_The_Shadows.webm
+[16.0249164104461670] 2018-01-12 03:02:28,312 - DEBUG - musicbot.bot | In bot.py::MainThread(4700), line 781 in serialize_queue: Serializing queue for 395855713685209099
+[37.8651657104492188] 2018-01-12 03:02:50,152 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 2395 in on_message: 338566914819227660/세준#2204: !queue
+[41.8393929004669189] 2018-01-12 03:02:54,127 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 2395 in on_message: 338566914819227660/세준#2204: !skip
+[44.5395472049713135] 2018-01-12 03:02:56,827 - INFO - musicbot.entry | In entry.py::MainThread(4700), line 219 in _really_download: Download started: https://youtube.com/watch?v=g2rdrNONy7k
+[46.0446336269378662] 2018-01-12 03:02:58,332 - INFO - musicbot.entry | In entry.py::MainThread(4700), line 226 in _really_download: Download complete: https://youtube.com/watch?v=g2rdrNONy7k
+[46.2396445274353027] 2018-01-12 03:02:58,527 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 2395 in on_message: 338566914819227660/세준#2204: !clear
+[342.1615705490112305] 2018-01-12 03:07:54,449 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 2395 in on_message: 338566914819227660/세준#2204: !play 그날처럼
+[347.1778571605682373] 2018-01-12 03:07:59,465 - DEBUG - musicbot.bot | In bot.py::MainThread(4700), line 781 in serialize_queue: Serializing queue for 395855713685209099
+[347.1788573265075684] 2018-01-12 03:07:59,466 - INFO - musicbot.entry | In entry.py::MainThread(4700), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=AvVnGzmZZrU
+[350.1080250740051270] 2018-01-12 03:08:02,395 - INFO - musicbot.entry | In entry.py::MainThread(4700), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=AvVnGzmZZrU
+[350.1100251674652100] 2018-01-12 03:08:02,397 - FFMPEG - musicbot.player | In player.py::MainThread(4700), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-AvVnGzmZZrU-1.webm
+[350.1220257282257080] 2018-01-12 03:08:02,409 - DEBUG - musicbot.bot | In bot.py::MainThread(4700), line 781 in serialize_queue: Serializing queue for 395855713685209099
+[613.9301147460937500] 2018-01-12 03:12:26,217 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 2395 in on_message: 338566914819227660/세준#2204: !play 비행운
+[619.4244289398193359] 2018-01-12 03:12:31,712 - DEBUG - musicbot.bot | In bot.py::MainThread(4700), line 781 in serialize_queue: Serializing queue for 395855713685209099
+[619.4244289398193359] 2018-01-12 03:12:31,712 - INFO - musicbot.entry | In entry.py::MainThread(4700), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=FvOBwRWaGZg
+[620.8415098190307617] 2018-01-12 03:12:33,129 - INFO - musicbot.entry | In entry.py::MainThread(4700), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=FvOBwRWaGZg
+[623.4396586418151855] 2018-01-12 03:12:35,727 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 2395 in on_message: 338566914819227660/세준#2204: !skip
+[623.4426586627960205] 2018-01-12 03:12:35,730 - FFMPEG - musicbot.player | In player.py::MainThread(4700), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-FvOBwRWaGZg-MoonMoon_-_Contrail_HAN_ROM_ENG_JPN_Lyrics_Turn_on_CC.webm
+[623.4526593685150146] 2018-01-12 03:12:35,740 - DEBUG - musicbot.bot | In bot.py::MainThread(4700), line 781 in serialize_queue: Serializing queue for 395855713685209099
+[623.4536592960357666] 2018-01-12 03:12:35,741 - DEBUG - musicbot.bot | In bot.py::MainThread(4700), line 781 in serialize_queue: Serializing queue for 395855713685209099
+[799.1587090492248535] 2018-01-12 03:15:31,446 - INFO - musicbot.entry | In entry.py::MainThread(4700), line 219 in _really_download: Download started: https://youtube.com/watch?v=FQ2yXWi0ppw
+[801.1708240509033203] 2018-01-12 03:15:33,458 - INFO - musicbot.entry | In entry.py::MainThread(4700), line 226 in _really_download: Download complete: https://youtube.com/watch?v=FQ2yXWi0ppw
+[801.1738243103027344] 2018-01-12 03:15:33,461 - FFMPEG - musicbot.player | In player.py::MainThread(4700), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-FQ2yXWi0ppw-R.E.M.-Losing_My_Religion_With_Lyrics_in_the_description_box.webm
+[801.1888253688812256] 2018-01-12 03:15:33,476 - DEBUG - musicbot.bot | In bot.py::MainThread(4700), line 781 in serialize_queue: Serializing queue for 395855713685209099
+[820.1869118213653564] 2018-01-12 03:15:52,474 - INFO - musicbot.bot | In bot.py::MainThread(4700), line 2395 in on_message: 338566914819227660/세준#2204: !clear
+[1072.8923656940460205] 2018-01-12 03:20:05,180 - INFO - musicbot.entry | In entry.py::MainThread(4700), line 219 in _really_download: Download started: https://youtube.com/watch?v=FgDU17xqNXo
+[1074.4864571094512939] 2018-01-12 03:20:06,774 - INFO - musicbot.entry | In entry.py::MainThread(4700), line 226 in _really_download: Download complete: https://youtube.com/watch?v=FgDU17xqNXo
+[1074.9034807682037354] 2018-01-12 03:20:07,191 - FFMPEG - musicbot.player | In player.py::MainThread(4700), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-FgDU17xqNXo-The_Joker-_Steve_Miller_Band.webm
+[1074.9144814014434814] 2018-01-12 03:20:07,202 - DEBUG - musicbot.bot | In bot.py::MainThread(4700), line 781 in serialize_queue: Serializing queue for 395855713685209099
